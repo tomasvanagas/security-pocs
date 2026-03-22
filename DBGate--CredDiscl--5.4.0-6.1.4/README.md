@@ -175,6 +175,5 @@ Expected output:
 | V1 | Auth bypass: `undefined == undefined` in password check | v5.4.0 (2024-07-26) | v6.1.5 (2025-02-04) |
 | V2 | Arbitrary file read via `files/load-from` (no path validation) | v5.0.0 (2022-05-19) | v6.5.0 (2025-06-12) |
 
-**Affected versions:** DbGate 5.4.0 through 6.1.4 (Docker images confirmed: 5.4.0, 5.4.1–5.5.6, 6.0.0, 6.1.0–6.1.4)
-**Not affected:** DbGate < 5.4.0 (auth bypass not present); DbGate >= 6.6.1 (both vulns patched; no Docker images exist for 6.1.5–6.5.x)
-**Fixed in:** Auth bypass fixed in v6.1.5 (commit `86736c289`); file read restricted to Electron in v6.5.0 (commit `3f37b2b72`)
+- **Affected versions:** DbGate 5.4.0 through 6.1.4 (Docker images confirmed: 5.4.0, 5.4.1–5.5.6, 6.0.0, 6.1.0–6.1.4) 
+- **Fixed in:** Auth bypass fixed in v6.1.5 (commit `86736c289`)
