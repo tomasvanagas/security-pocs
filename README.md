@@ -11,6 +11,8 @@ All vulnerabilities listed here have been **responsibly disclosed** and are **pa
 | Target | Vulnerability | Severity | Affected versions | Directory |
 |--------|--------------|----------|-------------------|-----------|
 | [DbGate](https://github.com/dbgate/dbgate) | Unauthenticated credential extraction (auth bypass + arbitrary file read) | Critical | 5.4.0–6.1.4 | [`DBGate--CredDiscl--5.4.0-6.1.4`](DBGate--CredDiscl--5.4.0-6.1.4/) |
+| [Filebrowser](https://github.com/filebrowser/filebrowser) | Stored Cross-Site Scripting via crafted EPUB file | High | <=2.61.1 | [`Filebrowser--CVE-2026-34529`](Filebrowser--CVE-2026-34529) |
+| [Filebrowser](https://github.com/filebrowser/filebrowser) | Stored Cross-Site Scripting via text/template branding injection | Moderate | <=2.61.1 | [`Filebrowser--CVE-2026-34530`](Filebrowser--CVE-2026-34530) |
 
 <br/>
 
